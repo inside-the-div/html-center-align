@@ -1,0 +1,6 @@
+HTML element center position vertically and horizontally
+
+1. Using same padding.
+2. Using text-align and line height.
+3. Use margin and CSS flex.
+4. Use the CSS position and transform.

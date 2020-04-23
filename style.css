@@ -1,0 +1,52 @@
+.working-area{
+	width: 600px;
+	height: 600px;
+	border: 1px solid red;
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+
+.box-1{
+	padding: 50px 100px;
+	border:1px solid green;
+}
+
+.box-2{
+	width: 80%;
+	height: 80px;
+
+	text-align: center;
+	border:1px solid green;
+	line-height: 80px; 
+	/*use same value  */
+}
+
+.box-3{
+	width: 80%;
+	height: 100px;
+	border:1px solid green;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.box-4{
+	width: 80%;
+	height: 100px;
+	border:1px solid green;
+
+	position: relative;
+}
+
+.box-5{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%,-50%);
+	
+}
